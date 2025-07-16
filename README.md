@@ -16,7 +16,7 @@ A Node.js + MySQL web service to identify and manage customer identities across 
 ### 1️⃣ Clone and Install
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Priyang1310/bitespeed-identity.git
 cd bitespeed-identity
 npm install
 ```
@@ -64,7 +64,7 @@ CREATE TABLE Contact (
 ### 4️⃣ Start Server
 
 ```bash
-npm start
+npm run dev
 ```
 
 Server will run at: `http://localhost:3000`
@@ -108,11 +108,7 @@ Server will run at: `http://localhost:3000`
 
 ## 🌐 Deployment
 
-To deploy, you can use:
-- [Render.com](https://render.com/)
-- [Railway](https://railway.app/)
-
-Just set environment variables from `.env` and expose port 3000.
+https://api-bitespeed-identity.onrender.com
 
 ---
 
@@ -124,9 +120,7 @@ Just set environment variables from `.env` and expose port 3000.
 - `routes/identifyRoute.js` - API route
 - `controllers/identifyController.js` - Logic
 - `models/contactModel.js` - MySQL operations
-
 ---
 
-## 📜 License
-
-MIT — free to use, modify, and share.
+## Thank You
+Let's Connect on Linkedin: https://linkedin.com/in/priyang-desai1310
