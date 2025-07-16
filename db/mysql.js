@@ -6,9 +6,8 @@ const pool = mysql.createPool({
 	password: process.env.DB_PASSWORD,
 	database: process.env.DB_NAME,
 	waitForConnections: true,
+	port: 15564, 
 	connectionLimit: 10,
 });
-
-console.log("MySQL connection pool created");
 
 module.exports = pool.promise();
